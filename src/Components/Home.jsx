@@ -582,7 +582,7 @@ const Home = () => {
             }}
           >
             <img
-              src="assets/img/choose/software.jpg"
+              src="assets/img/projects/tracking.jpg"
               style={{
                 height: "80px",
                 width: "120px",
@@ -598,7 +598,7 @@ const Home = () => {
                 marginBottom: "10px",
               }}
             >
-              Keystokes Tracking
+              Tracking
             </p>
             <p
               style={{
@@ -624,7 +624,7 @@ const Home = () => {
             }}
           >
             <img
-              src="assets/img/choose/software.jpg"
+              src="assets/img/projects/team-management.jpg"
               style={{
                 height: "80px",
                 width: "120px",
@@ -640,7 +640,7 @@ const Home = () => {
                 marginBottom: "10px",
               }}
             >
-              Security
+              Team Management
             </p>
             <p
               style={{
@@ -666,7 +666,7 @@ const Home = () => {
             }}
           >
             <img
-              src="assets/img/blog/01.jpg"
+              src="assets/img/projects/leave-management.png"
               style={{
                 height: "80px",
                 width: "120px",
@@ -682,7 +682,143 @@ const Home = () => {
                 marginBottom: "10px",
               }}
             >
-              Screenshots
+              Leave Management
+            </p>
+            <p
+              style={{
+                textAlign: "center",
+                marginInline: "20px",
+                marginBottom: "15px",
+              }}
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque perspiciatis vitae consequuntur atque itaque maiores
+              totam voluptates vero.
+            </p>
+            <button>Load More</button>
+          </div>
+        </div>
+        {/* three other parts of software */}
+        <div
+          style={{
+            display: "flex",
+            gap: "30px",
+            marginInline: "160px",
+            marginTop: "20px",
+          }}
+        >
+          <div
+            style={{
+              width: "400px",
+              height: "350px",
+              textAlign: "center",
+              marginTop: "10px",
+              border: "1px solid black",
+              borderRadius: "15px",
+            }}
+          >
+            <img
+              src="assets/img/projects/task-management.png"
+              style={{
+                height: "80px",
+                width: "120px",
+                marginTop: "15px",
+                marginBottom: "15px",
+              }}
+            ></img>
+            <p
+              style={{
+                textAlign: "center",
+                color: "black",
+                fontSize: "20px",
+                marginBottom: "10px",
+              }}
+            >
+              Task Management
+            </p>
+            <p
+              style={{
+                textAlign: "center",
+                marginInline: "20px",
+                marginBottom: "15px",
+              }}
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque perspiciatis vitae consequuntur atque itaque maiores
+              totam voluptates vero.
+            </p>
+            <button>Load More</button>
+          </div>
+          <div
+            style={{
+              width: "400px",
+              height: "350px",
+              textAlign: "center",
+              marginTop: "10px",
+              border: "1px solid black",
+              borderRadius: "15px",
+            }}
+          >
+            <img
+              src="assets/img/projects/calculator.png"
+              style={{
+                height: "80px",
+                width: "120px",
+                marginTop: "15px",
+                marginBottom: "15px",
+              }}
+            ></img>
+            <p
+              style={{
+                textAlign: "center",
+                color: "black",
+                fontSize: "20px",
+                marginBottom: "10px",
+              }}
+            >
+              Performance Calculator
+            </p>
+            <p
+              style={{
+                textAlign: "center",
+                marginInline: "20px",
+                marginBottom: "15px",
+              }}
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque perspiciatis vitae consequuntur atque itaque maiores
+              totam voluptates vero.
+            </p>
+            <button>Load More</button>
+          </div>
+          <div
+            style={{
+              width: "400px",
+              height: "350px",
+              textAlign: "center",
+              marginTop: "10px",
+              border: "1px solid black",
+              borderRadius: "15px",
+            }}
+          >
+            <img
+              src="assets/img/projects/chat.png"
+              style={{
+                height: "80px",
+                width: "120px",
+                marginTop: "15px",
+                marginBottom: "15px",
+              }}
+            ></img>
+            <p
+              style={{
+                textAlign: "center",
+                color: "black",
+                fontSize: "20px",
+                marginBottom: "10px",
+              }}
+            >
+              Chat
             </p>
             <p
               style={{
