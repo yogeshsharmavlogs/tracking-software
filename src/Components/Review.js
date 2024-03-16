@@ -17,12 +17,11 @@ export const Review = () => {
           </ul>
         </div>
       </div>
-      {/* <div className="itmes">Review Details</div> */}
       <div class="contact-wrapper">
         <div class="row">
           <div class="col-lg-6 align-self-center">
             <div class="contact-img">
-              <img src="assets/img/contact/01.jpg" alt />
+              <img src="assets/img/contact/01.jpg" />
             </div>
           </div>
           <div class="col-lg-6 align-self-center">
@@ -32,7 +31,7 @@ export const Review = () => {
                 <p>
                   It is a long established fact that a reader will be distracted
                   by the readable content of a page randomised words which don't
-                  look even slightly when looking at its layout.{" "}
+                  look even slightly when looking at its layout.
                 </p>
               </div>
               <form

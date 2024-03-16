@@ -109,7 +109,7 @@ const Home = () => {
                   <div className="hero-img">
                     <img
                       src="assets/img/slider/hero-1.jpg"
-                      alt=""
+                      alt="hero side image"
                       data-animation="fadeInRight"
                       data-delay=".25s"
                       style={{ marginLeft: "180px", height: "470px" }}
@@ -464,42 +464,7 @@ const Home = () => {
         className="review"
         style={{ height: "700px", backgroundColor: "darkblue" }}
       >
-        {/* <h1 style={{ color: "white", textAlign: "center", padding: "25px" }}>
-        
-          Read what our customers say
-        </h1> */}
-        {/* <div
-
-          style={{
-            display: "flex",
-            gap: "50px",
-            alignItems: "center",
-            marginLeft: "350px",
-          }}
-        >
-          <div
-            style={{
-              width: "400px",
-              height: "215px",
-              borderRadius: "20px",
-              backgroundColor: "red",
-            }}
-          >
-            <img src=""></img>
-          </div>
-          <div
-            style={{
-              width: "400px",
-              height: "215px",
-              borderRadius: "20px",
-              backgroundColor: "green",
-            }}
-          >
-            two
-          </div>
-        </div> */}
-
-        <div class="contact-wrapper" style={{ marginBottom: "500px" }}>
+        <div class="contact-wrapper" style={{}}>
           <div class="row">
             <div class="col-lg-6 align-self-center">
               <div class="contact-img">
@@ -576,8 +541,164 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      <br />
+      <div style={{ marginTop: "200px", marginBottom: "50px" }}>
+        <h1
+          style={{
+            textAlign: "center",
+            fontWeight: "bold",
+            marginBottom: "10px",
+          }}
+        >
+          Our Projects
+        </h1>
+        <p style={{ textAlign: "center", fontSize: "30px" }}>
+          TASK LOGGER FEATURES
+        </p>
+        <p style={{ textAlign: "center", marginInline: "300px" }}>
+          Task Logger is a software with basic functions to track what is done
+          on a computer in terms of keystrokes, clipboards and screenshorts.
+          There 3 types of data are more than enough to understand what happens
+          on your computer in your absence and is an essential tool if you want
+          to monitor, for example, what your children, your wife/husband, or
+          your employees are doing.
+        </p>
+        {/* three parts of software */}
+        <div
+          style={{
+            display: "flex",
+            gap: "30px",
+            marginInline: "160px",
+            marginTop: "20px",
+          }}
+        >
+          <div
+            style={{
+              width: "400px",
+              height: "350px",
+              textAlign: "center",
+              marginTop: "10px",
+              border: "1px solid black",
+              borderRadius: "15px",
+            }}
+          >
+            <img
+              src="assets/img/choose/software.jpg"
+              style={{
+                height: "80px",
+                width: "120px",
+                marginTop: "15px",
+                marginBottom: "15px",
+              }}
+            ></img>
+            <p
+              style={{
+                textAlign: "center",
+                color: "black",
+                fontSize: "20px",
+                marginBottom: "10px",
+              }}
+            >
+              Keystokes Tracking
+            </p>
+            <p
+              style={{
+                textAlign: "center",
+                marginInline: "20px",
+                marginBottom: "15px",
+              }}
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque perspiciatis vitae consequuntur atque itaque maiores
+              totam voluptates vero.
+            </p>
+            <button>Load More</button>
+          </div>
+          <div
+            style={{
+              width: "400px",
+              height: "350px",
+              textAlign: "center",
+              marginTop: "10px",
+              border: "1px solid black",
+              borderRadius: "15px",
+            }}
+          >
+            <img
+              src="assets/img/choose/software.jpg"
+              style={{
+                height: "80px",
+                width: "120px",
+                marginTop: "15px",
+                marginBottom: "15px",
+              }}
+            ></img>
+            <p
+              style={{
+                textAlign: "center",
+                color: "black",
+                fontSize: "20px",
+                marginBottom: "10px",
+              }}
+            >
+              Security
+            </p>
+            <p
+              style={{
+                textAlign: "center",
+                marginInline: "20px",
+                marginBottom: "15px",
+              }}
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque perspiciatis vitae consequuntur atque itaque maiores
+              totam voluptates vero.
+            </p>
+            <button>Load More</button>
+          </div>
+          <div
+            style={{
+              width: "400px",
+              height: "350px",
+              textAlign: "center",
+              marginTop: "10px",
+              border: "1px solid black",
+              borderRadius: "15px",
+            }}
+          >
+            <img
+              src="assets/img/blog/01.jpg"
+              style={{
+                height: "80px",
+                width: "120px",
+                marginTop: "15px",
+                marginBottom: "15px",
+              }}
+            ></img>
+            <p
+              style={{
+                textAlign: "center",
+                color: "black",
+                fontSize: "20px",
+                marginBottom: "10px",
+              }}
+            >
+              Screenshots
+            </p>
+            <p
+              style={{
+                textAlign: "center",
+                marginInline: "20px",
+                marginBottom: "15px",
+              }}
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque perspiciatis vitae consequuntur atque itaque maiores
+              totam voluptates vero.
+            </p>
+            <button>Load More</button>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
